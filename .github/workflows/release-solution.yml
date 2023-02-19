@@ -4,7 +4,6 @@ name: release-solution
 on:
   workflow_dispatch:
     inputs: 
-      #Values are set by the caller
       solution_name:
         description: 'The solution name.'
         type: string
@@ -14,16 +13,16 @@ on:
         description: 'build environment url.'
         type: string
         required: true
-        default: https://xxx.crm.dynamics.com/      
+        default: https://org300e50ac.crm.dynamics.com/      
       release_environment_url: 
         description: 'release environment url.'
         type: string
         required: true
-        default: https://xxx.crm.dynamics.com/      
+        default: https://org93d37670.crm.dynamics.com/      
 
 env:
-  CLIENT_ID: 'xxx'
-  TENANT_ID: 'xxx'
+  CLIENT_ID: '68d67ff7-938a-4a31-b73a-13e16dc91cd6'
+  TENANT_ID: '7975435a-90a5-4d25-ac0d-c473789fea80'
   SOLUTION_SHIPPING_FOLDER: out/ship/
   SOLUTION_OUTBOUND_FOLDER: out/solutions/
   SOLUTION_SOURCE_FOLDER: solutions/
@@ -32,7 +31,6 @@ env:
 jobs:
   convert-to-managed:
     runs-on: windows-latest
-    # or you can say runs-on: ubuntu-latest
     env:
       RUNNER_DEBUG: 1
 
