@@ -5,7 +5,6 @@ name: export-and-branch-solution
 on:
   workflow_dispatch:
     inputs:
-      # Change this value
       solution_name:
         description: 'name of the solution to worked on from Power Platform'
         required: true
@@ -13,12 +12,11 @@ on:
       environment_url:
         description: 'url of the environment for export of the solution'
         required: true
-        default: https://xxx.crm.dynamics.com/
+        default: https://org3791fcb1.crm.dynamics.com/
 
 env:
-#edit your values here
-  CLIENT_ID: 'xxx'
-  TENANT_ID: 'xxx'
+  CLIENT_ID: '68d67ff7-938a-4a31-b73a-13e16dc91cd6'
+  TENANT_ID: '7975435a-90a5-4d25-ac0d-c473789fea80'
   SOLUTION_EXPORTED_FOLDER: out/exported/
   SOLUTION_FOLDER: out/solutions/
   SOLUTION_TARGET_FOLDER: solutions/
@@ -26,7 +24,6 @@ env:
 jobs:
   export-from-dev:
     runs-on: windows-latest
-    # or you can say runs-on: ubuntu-latest
     env:
       RUNNER_DEBUG: 1
 
