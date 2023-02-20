@@ -1,0 +1,16 @@
+<customapi uniquename="contoso_LockPermit">
+  <allowedcustomprocessingsteptype>0</allowedcustomprocessingsteptype>
+  <bindingtype>1</bindingtype>
+  <boundentitylogicalname>contoso_permit</boundentitylogicalname>
+  <description default="Lock Permit">
+    <label description="Lock Permit" languagecode="1033" />
+  </description>
+  <displayname default="Lock Permit">
+    <label description="Lock Permit" languagecode="1033" />
+  </displayname>
+  <iscustomizable>1</iscustomizable>
+  <isfunction>0</isfunction>
+  <isprivate>0</isprivate>
+  <name>Lock Permit</name>
+  <workflowsdkstepenabled>0</workflowsdkstepenabled>
+</customapi>
