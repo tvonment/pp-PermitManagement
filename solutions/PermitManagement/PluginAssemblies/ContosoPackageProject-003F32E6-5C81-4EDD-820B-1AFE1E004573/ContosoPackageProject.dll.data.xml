@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PluginAssembly FullName="ContosoPackageProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0bc69f352751c303" PluginAssemblyId="003f32e6-5c81-4edd-820b-1afe1e004573" CustomizationLevel="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IsolationMode>2</IsolationMode>
+  <SourceType>0</SourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <FileName>/PluginAssemblies/ContosoPackageProject-003F32E6-5C81-4EDD-820B-1AFE1E004573/ContosoPackageProject.dll</FileName>
+  <PluginTypes>
+    <PluginType AssemblyQualifiedName="ContosoPackageproject.LockPermitCancelInspections, ContosoPackageProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0bc69f352751c303" PluginTypeId="b0844629-dfbf-48f8-b7ea-f8622ff5a433" Name="ContosoPackageproject.LockPermitCancelInspections">
+      <FriendlyName>b5583c23-c819-4e57-849e-a0a4066e7309</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="ContosoPackageProject.PreOperationPermitCreate, ContosoPackageProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0bc69f352751c303" PluginTypeId="08f7770b-5e79-4666-a771-da09c9bfbd43" Name="ContosoPackageProject.PreOperationPermitCreate">
+      <FriendlyName>bb23c79b-9e5c-4944-8599-864ca9247b0c</FriendlyName>
+    </PluginType>
+  </PluginTypes>
+</PluginAssembly>

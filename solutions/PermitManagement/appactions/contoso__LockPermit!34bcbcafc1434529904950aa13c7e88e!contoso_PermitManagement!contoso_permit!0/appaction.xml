@@ -1,0 +1,36 @@
+<appaction uniquename="contoso__LockPermit!34bcbcafc1434529904950aa13c7e88e!contoso_PermitManagement!contoso_permit!0">
+  <appmoduleid>
+    <uniquename>contoso_PermitManagement</uniquename>
+  </appmoduleid>
+  <buttonaccessibilitytext default="Lock Permit">
+    <label description="Lock Permit" languagecode="1033" />
+  </buttonaccessibilitytext>
+  <buttonlabeltext default="Lock Permit">
+    <label description="Lock Permit" languagecode="1033" />
+  </buttonlabeltext>
+  <buttonsequencepriority>15.0000000000</buttonsequencepriority>
+  <buttontooltiptitle default="Lock Permit">
+    <label description="Lock Permit" languagecode="1033" />
+  </buttontooltiptitle>
+  <context>1</context>
+  <contextentity>
+    <logicalname>contoso_permit</logicalname>
+  </contextentity>
+  <contextvalue>contoso_permit</contextvalue>
+  <fonticon>Lock</fonticon>
+  <hidden>0</hidden>
+  <iscustomizable>1</iscustomizable>
+  <isgrouptitlehidden>0</isgrouptitlehidden>
+  <location>0</location>
+  <name>LockPermit!34bcbcafc1434529904950aa13c7e88e</name>
+  <onclickeventjavascriptfunctionname>ContosoPermit.Scripts.PermitForm.lockPermit</onclickeventjavascriptfunctionname>
+  <onclickeventjavascriptparameters>[{"type":5}]</onclickeventjavascriptparameters>
+  <onclickeventjavascriptwebresourceid>
+    <webresourceid>32332b62-5db1-ed11-83fd-002248041aba</webresourceid>
+  </onclickeventjavascriptwebresourceid>
+  <onclickeventtype>2</onclickeventtype>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <type>0</type>
+  <visibilitytype>0</visibilitytype>
+</appaction>
