@@ -1,0 +1,11 @@
+<customapiresponseproperty uniquename="CanceledInspectionsCount">
+  <description default="Canceled Inspections Count">
+    <label description="Canceled Inspections Count" languagecode="1033" />
+  </description>
+  <displayname default="Canceled Inspections Count">
+    <label description="Canceled Inspections Count" languagecode="1033" />
+  </displayname>
+  <iscustomizable>1</iscustomizable>
+  <name>Canceled Inspections Count</name>
+  <type>7</type>
+</customapiresponseproperty>
