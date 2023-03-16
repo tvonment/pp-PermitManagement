@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Connector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <connectorid>664da970-b1fe-401f-8cac-d3fbe422fe48</connectorid>
+  <description>SentimentDemo</description>
+  <displayname>SentimentDetection</displayname>
+  <iconbrandcolor>#007ee5</iconbrandcolor>
+  <name>contoso_sentimentdetection</name>
+  <connectortype>1</connectortype>
+  <openapidefinition>/Connector/contoso_sentimentdetection_openapidefinition.json</openapidefinition>
+  <connectionparameters>/Connector/contoso_sentimentdetection_connectionparameters.json</connectionparameters>
+  <policytemplateinstances>/Connector/contoso_sentimentdetection_policytemplateinstances.json</policytemplateinstances>
+  <iconblob>/Connector/contoso_sentimentdetection_iconblob.Png</iconblob>
+</Connector>

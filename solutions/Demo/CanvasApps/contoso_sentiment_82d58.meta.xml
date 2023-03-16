@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>contoso_sentiment_82d58</Name>
+  <AppVersion>2023-02-20T22:26:19Z</AppVersion>
+  <Status>Ready</Status>
+  <CreatedByClientVersion>3.23015.23.0</CreatedByClientVersion>
+  <MinClientVersion>3.23015.23.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"640","primaryDeviceHeight":"1136","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Phone","publisherVersion":"3.23015.23","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false"}</Tags>
+  <IsCdsUpgraded>0</IsCdsUpgraded>
+  <GalleryItemId xsi:nil="true"></GalleryItemId>
+  <BackgroundColor>RGBA(0,176,240,1)</BackgroundColor>
+  <DisplayName>Sentiment</DisplayName>
+  <Description xsi:nil="true"></Description>
+  <CommitMessage xsi:nil="true"></CommitMessage>
+  <Publisher xsi:nil="true"></Publisher>
+  <AuthorizationReferences>[]</AuthorizationReferences>
+  <ConnectionReferences>{"569f0618-6b52-441e-a1e5-20d77b571903":{"id":"/providers/microsoft.powerapps/apis/shared_sentimentdetection-5f8300d78363733c5c-5f69ffd171fe53933e","displayName":"SentimentDetection","iconUri":"https://az787822.vo.msecnd.net/defaulticons/api-dedicated.png","dataSources":["SentimentDemo"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["DetectSentiment"],"customApiLogicalName":"contoso_sentimentdetection","isCustomApiSolutionAware":true}}</ConnectionReferences>
+  <DatabaseReferences>{}</DatabaseReferences>
+  <AppComponents>[]</AppComponents>
+  <AppComponentDependencies>[]</AppComponentDependencies>
+  <CanConsumeAppPass>1</CanConsumeAppPass>
+  <CanvasAppType>0</CanvasAppType>
+  <BypassConsent>0</BypassConsent>
+  <AdminControlBypassConsent>0</AdminControlBypassConsent>
+  <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <CdsDependencies>{"cdsdependencies":[{"logicalname":"contoso_sentimentdetection","componenttype":372,"componenttypeplatformname":"connector"}]}</CdsDependencies>
+  <IsCustomizable>1</IsCustomizable>
+  <BackgroundImageUri>/CanvasApps/contoso_sentiment_82d58_BackgroundImageUri</BackgroundImageUri>
+  <DocumentUri>/CanvasApps/contoso_sentiment_82d58_DocumentUri.msapp</DocumentUri>
+</CanvasApp>
