@@ -13,16 +13,16 @@ on:
         description: 'build environment url.'
         type: string
         required: true
-        default: https://org300e50ac.crm.dynamics.com/      
+        default: https://orge62b6114.crm.dynamics.com/     
       release_environment_url: 
         description: 'release environment url.'
         type: string
         required: true
-        default: https://org93d37670.crm.dynamics.com/      
+        default: https://org5e3579fa.crm17.dynamics.com/     
 
 env:
-  CLIENT_ID: '68d67ff7-938a-4a31-b73a-13e16dc91cd6'
-  TENANT_ID: '7975435a-90a5-4d25-ac0d-c473789fea80'
+  CLIENT_ID: '8dd637f1-d620-4c73-8f19-156db61cb616'
+  TENANT_ID: '38ed5bef-40af-433f-b790-23c538ecf42a'
   SOLUTION_SHIPPING_FOLDER: out/ship/
   SOLUTION_OUTBOUND_FOLDER: out/solutions/
   SOLUTION_SOURCE_FOLDER: solutions/
